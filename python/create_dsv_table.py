@@ -38,7 +38,7 @@ def make_link(link):
         suffix = "../Chapter_06/06.03.11_MySQL_Enterprise_Audit_Log_Plugin.md"
     elif page == "mysql-cluster-replication-conflict-resolution.html":
         suffix = "../Chapter_17/17.06.11_MySQL_Cluster_Replication_Conflict_Resolution.md"
-    suffix = suffix.replace("|", "&#124;")
+    suffix = suffix.replace("|", "|")
     return suffix + "#" + anchor
     
 def code_it(code):
@@ -51,7 +51,7 @@ def make_scope(scope):
     if len(scopes) == 1:
         return code_it(scopes[0])
     elif len(scopes) ==2: 
-        return code_it(scopes[0]) + " &#124; " + code_it(scopes[1])
+        return code_it(scopes[0]) + " | " + code_it(scopes[1])
 
 def handle(line):
     ''' '''
