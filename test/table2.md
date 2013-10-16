@@ -190,7 +190,7 @@
 [ndb_cache_check_time](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_cache_check_time) | numeric | `GLOBAL`
 [ndb_deferred_constraints](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#option_mysqld_ndb-deferred-constraints) | integer | `GLOBAL` ¦ `SESSION`
 [ndb_deferred_constraints](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_deferred_constraints) | integer | `GLOBAL` ¦ `SESSION`
-[ndb_distribution={KEYHASH|LINHASH}](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_distribution) | enumeration | `GLOBAL`
+[ndb_distribution={KEYHASH¦LINHASH}](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_distribution) | enumeration | `GLOBAL`
 [ndb_distribution](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#option_mysqld_ndb-distribution) | enumeration | `GLOBAL`
 [ndb_extra_logging](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_extra_logging) | numeric | `GLOBAL`
 [ndb_force_send](../Chapter_17/17.03.04_MySQL_Server_Options_and_Variables_for_MySQL_Cluster.md#sysvar_ndb_force_send) | boolean | `GLOBAL` ¦ `SESSION`
