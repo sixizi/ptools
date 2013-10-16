@@ -43,7 +43,7 @@ def make_link(link):
     
 def code_it(code):
     ''' '''
-    return "`" + code + "`"
+    return "`" + code.strip() + "`"
     
 def make_scope(scope):
     '''make markdown format scope'''
